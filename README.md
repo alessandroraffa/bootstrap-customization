@@ -9,6 +9,8 @@ They added `sm` (small), `md` (medium) and `lg` (large) CSS classes.
 
 In this customization, there is also a fourth CSS class `wd` (wide), to identify devices wider than 1200px.
 
+
+
     /* Small to Wide */
 
     /* Small only */

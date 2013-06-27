@@ -11,6 +11,7 @@ In this customization, there is also a fourth CSS class `wd`, to identify *wide*
 
 You can use this code
 
+```html
     <div class="row">
       <div class="col-lg-3">
         <div class="visible-sm">Visible small</div>
@@ -29,11 +30,13 @@ You can use this code
         <div class="hidden-wd">Hidden wide</div>
       </div>
     </div>
+```
 
 To test those classes.
 
 You can use these media queries to customize your CCS3 rules.
 
+```css
     /* Small to Wide */
 
     /* Small only */
@@ -55,3 +58,4 @@ You can use these media queries to customize your CCS3 rules.
     @media (min-width: 1200px) {
 
     }
+```

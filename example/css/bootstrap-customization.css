@@ -1,0 +1,132 @@
+/*!
+ * Customization v0.1 for Bootstrap v3.0.0
+ *
+ * Licensed under the Apache License v2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Designed by @alessandroraffa
+ * https://github.com/alessandroraffa/bootstrap-customization
+ */
+
+/* SM only */
+@media (max-width: 767px) {
+
+  .container {
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+
+  .row div[class^=col]{
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+}
+
+.visible-wd {
+  display: none !important;
+}
+
+.hidden-wd {
+  display: block !important;
+}
+
+tr.hidden-wd {
+  display: table-row !important;
+}
+
+th.hidden-wd,
+td.hidden-wd {
+  display: table-cell !important;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .visible-wd {
+    display: none !important;
+  }
+  .hidden-wd {
+    display: block !important;
+  }
+  tr.hidden-wd {
+    display: table-row !important;
+  }
+  th.hidden-wd,
+  td.hidden-wd {
+    display: table-cell !important;
+  }
+}
+
+@media (min-width: 992px) {
+
+  .visible-wd {
+    display: none !important;
+  }
+  .hidden-wd {
+    display: block !important;
+  }
+  tr.hidden-wd {
+    display: table-row !important;
+  }
+  th.hidden-wd,
+  td.hidden-wd {
+    display: table-cell !important;
+  }
+
+}
+
+@media (min-width: 1200px) {
+  .visible-sm {
+    display: none !important;
+  }
+  .visible-md {
+    display: none !important;
+  }
+  .visible-lg {
+    display: none !important;
+  }
+  .hidden-sm {
+    display: block !important;
+  }
+  tr.hidden-sm {
+    display: table-row !important;
+  }
+  th.hidden-sm,
+  td.hidden-sm {
+    display: table-cell !important;
+  }
+  .hidden-lg {
+    display: block !important;
+  }
+  tr.hidden-lg {
+    display: table-row !important;
+  }
+  th.hidden-lg,
+  td.hidden-lg {
+    display: table-cell !important;
+  }
+  .hidden-md {
+    display: block !important;
+  }
+  tr.hidden-md {
+    display: table-row !important;
+  }
+  th.hidden-md,
+  td.hidden-md {
+    display: table-cell !important;
+  }
+  .visible-wd {
+    display: block !important;
+  }
+  tr.visible-wd {
+    display: table-row !important;
+  }
+  th.visible-wd,
+  td.visible-wd {
+    display: table-cell !important;
+  }
+  .hidden-wd {
+    display: none !important;
+  }
+}
+
+.row form.form-inline input{margin-bottom:7px;}

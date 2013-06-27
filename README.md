@@ -5,9 +5,9 @@ Customizing Twitter Bootstrap 3.0.0
 
 The next upcoming release of [Twitter Bootstrap](https://github.com/twitter/bootstrap "Twitter Bootstrap") will be a strong rewrite of the framework, with the *mobile first* approach.
 
-They added `sm`, `md` and `lg` CSS classes, to identify respectively small, medium and large devices.
+They added `sm`, `md` and `lg` CSS classes, to identify respectively *small*, *medium* and *large* devices.
 
-In this customization, there is also a fourth CSS class `wd`, to identify wide devices.
+In this customization, there is also a fourth CSS class `wd`, to identify *wide* devices.
 
 You can use this code
 

@@ -12,24 +12,24 @@ In this customization, there is also a fourth CSS class `wd`, to identify *wide*
 You can use this code
 
 ```html
-    <div class="row">
-      <div class="col-lg-3">
-        <div class="visible-sm">Visible small</div>
-        <div class="hidden-sm">Hidden small</div>
-      </div>
-      <div class="col-lg-3">
-        <div class="visible-md">Visible medium</div>
-        <div class="hidden-md">Hidden medium</div>
-      </div>
-      <div class="col-lg-3">
-        <div class="visible-lg">Visible large</div>
-        <div class="hidden-lg">Hidden large</div>
-      </div>
-      <div class="col-lg-3">
-        <div class="visible-wd">Visible wide</div>
-        <div class="hidden-wd">Hidden wide</div>
-      </div>
-    </div>
+<div class="row">
+  <div class="col-lg-3">
+    <div class="visible-sm">Visible small</div>
+    <div class="hidden-sm">Hidden small</div>
+  </div>
+  <div class="col-lg-3">
+    <div class="visible-md">Visible medium</div>
+    <div class="hidden-md">Hidden medium</div>
+  </div>
+  <div class="col-lg-3">
+    <div class="visible-lg">Visible large</div>
+    <div class="hidden-lg">Hidden large</div>
+  </div>
+  <div class="col-lg-3">
+    <div class="visible-wd">Visible wide</div>
+    <div class="hidden-wd">Hidden wide</div>
+  </div>
+</div>
 ```
 
 To test those classes.
@@ -37,25 +37,25 @@ To test those classes.
 You can use these media queries to customize your CCS3 rules.
 
 ```css
-    /* Small to Wide */
+/* Small to Wide */
 
-    /* Small only */
-    @media (max-width: 767px) {
+/* Small only */
+@media (max-width: 767px) {
 
-    }
+}
 
-    /* Medium to Large (and larger) */
-    @media (min-width: 768px) {
+/* Medium to Large (and larger) */
+@media (min-width: 768px) {
 
-    }
+}
 
-    /* Large to Wide (and larger) */
-    @media (min-width: 992px) {
+/* Large to Wide (and larger) */
+@media (min-width: 992px) {
 
-    }
+}
 
-    /* Wide and larger */
-    @media (min-width: 1200px) {
+/* Wide and larger */
+@media (min-width: 1200px) {
 
-    }
+}
 ```

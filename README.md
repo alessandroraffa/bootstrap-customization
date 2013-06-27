@@ -32,7 +32,7 @@ You can use the following code to test those classes.
 </div>
 ```
 
-You can use these media queries to customize your CCS3 rules.
+You can use or combine these media queries to customize your CCS3 rules.
 
 ```css
 /* Small to Wide and larger */

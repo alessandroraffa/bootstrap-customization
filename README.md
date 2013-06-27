@@ -9,6 +9,8 @@ They added `sm`, `md` and `lg` CSS classes, to identify respectively *small*, *m
 
 In this customization, there is also a fourth CSS class `wd`, to identify *wide* devices.
 
+___
+
 You can use the following code to test those classes.
 
 ```html
@@ -31,6 +33,8 @@ You can use the following code to test those classes.
   </div>
 </div>
 ```
+
+___
 
 You can use or combine these media queries to customize your CCS3 rules.
 

@@ -56,7 +56,7 @@ td.hidden-wd {
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 992px) and (max-width: 1199px) {
 
   .visible-wd {
     display: none !important;

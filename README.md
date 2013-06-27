@@ -13,28 +13,20 @@ You can use this code
 
     <div class="row">
       <div class="col-lg-3">
-
         <div class="visible-sm">Visible small</div>
         <div class="hidden-sm">Hidden small</div>
-
       </div>
       <div class="col-lg-3">
-
         <div class="visible-md">Visible medium</div>
         <div class="hidden-md">Hidden medium</div>
-
       </div>
       <div class="col-lg-3">
-
         <div class="visible-lg">Visible large</div>
         <div class="hidden-lg">Hidden large</div>
-
       </div>
       <div class="col-lg-3">
-
         <div class="visible-wd">Visible wide</div>
         <div class="hidden-wd">Hidden wide</div>
-
       </div>
     </div>
 

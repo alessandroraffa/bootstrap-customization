@@ -16,6 +16,7 @@
     <link href="../bootstrap-customization.css" rel="stylesheet">
 
     <style>
+
       /* Small to Wide and larger */
 
       /* Small only */
@@ -37,6 +38,7 @@
       @media (min-width: 1200px) {
 
       }
+
     </style>
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -60,21 +62,61 @@
     <div class="container">
 
       <header class="page-header">
-
         <div class="jumbotron">
-
           <h1 class="visible-sm">Small Layout <small>payoff</small></h1>
           <h1 class="visible-md">Medium Layout <small>payoff</small></h1>
           <h1 class="visible-lg">Large Layout <small>payoff</small></h1>
           <h1 class="visible-wd">Wide Layout <small>payoff</small></h1>
-
         </div>
-
+        <p class="lead">
+          Testing Twitter Bootstrap 3 <small>small text inside lead</small>
+        </p>
       </header>
 
-      <p class="lead">
-        Testing Twitter Bootstrap 3 <small>small text inside lead</small>
-      </p>
+      <div class="row">
+        <div class="col-sm-4">
+          <ul class="list-group">
+            <li class="list-group-item">
+              <span class="glyphicon glyphicon-chevron-right"></span>
+              text
+            </li>
+            <li class="list-group-item">
+              <span class="glyphicon glyphicon-chevron-right"></span>
+              <a href="#">link</a>
+            </li>
+            <li class="list-group-item">
+              <span class="badge">19</span>
+              <a href="#">link with counter</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-sm-4">
+          <div class="list-group">
+            <a class="list-group-item active" href="#">
+              <span class="glyphicon glyphicon-chevron-right"></span>
+              text
+            </a>
+            <a class="list-group-item" href="#">
+              <h4 class="list-group-item-heading">heading</h4>
+              <p class="list-group-item-text">List group item text</p>
+            </a>
+            <a class="list-group-item active" href="#">
+              <h4 class="list-group-item-heading">heading active</h4>
+              <p class="list-group-item-text">Active list group item text</p>
+            </a>
+            <a class="list-group-item disabled" href="#">
+              <h4 class="list-group-item-heading">heading disabled</h4>
+              <p class="list-group-item-text">Disabled list group item text</p>
+            </a>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="panel">
+            <div class="panel-heading"><h4>Heading of panel</h4></div>
+            Panel content
+          </div>
+        </div>
+      </div>
 
       <div class="row">
         <div class="col-sm-10 col-push-1">
@@ -101,6 +143,35 @@
             <input type="password" placeholder="Password" required="required">
             <input type="submit" class="btn btn-block btn-primary" value="Sign In">
           </form>
+        </div>
+      </div>
+
+      <hr>
+
+      <div class="row">
+        <div class="col-lg-3">
+
+          <div class="alert alert-success visible-sm">Visible SM</div>
+          <div class="alert alert-danger hidden-sm">Hidden SM</div>
+
+        </div>
+        <div class="col-lg-3">
+
+          <div class="alert alert-success visible-md">Visible MD</div>
+          <div class="alert alert-danger hidden-md">Hidden MD</div>
+
+        </div>
+        <div class="col-lg-3">
+
+          <div class="alert alert-success visible-lg">Visible LG</div>
+          <div class="alert alert-danger hidden-lg">Hidden LG</div>
+
+        </div>
+        <div class="col-lg-3">
+
+          <div class="alert alert-success visible-wd">Visible WD</div>
+          <div class="alert alert-danger hidden-wd">Hidden WD</div>
+
         </div>
       </div>
 
@@ -184,33 +255,6 @@
       <div class="row">
         <div class="col-sm-12">
           <div class="alert">12</div>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-lg-3">
-
-          <div class="alert alert-success visible-sm">Visible SM</div>
-          <div class="alert alert-danger hidden-sm">Hidden SM</div>
-
-        </div>
-        <div class="col-lg-3">
-
-          <div class="alert alert-success visible-md">Visible MD</div>
-          <div class="alert alert-danger hidden-md">Hidden MD</div>
-
-        </div>
-        <div class="col-lg-3">
-
-          <div class="alert alert-success visible-lg">Visible LG</div>
-          <div class="alert alert-danger hidden-lg">Hidden LG</div>
-
-        </div>
-        <div class="col-lg-3">
-
-          <div class="alert alert-success visible-wd">Visible WD</div>
-          <div class="alert alert-danger hidden-wd">Hidden WD</div>
-
         </div>
       </div>
 

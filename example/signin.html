@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title>Bootstrap 3 Customization</title>
+
+    <meta charset="utf-8">
+    <!--[if lt IE 9]><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><![endif]-->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Bootstrap 3 Customization">
+    <meta name="author" content="@alessandroraffa">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="../bootstrap-customization.css" rel="stylesheet">
+
+    <style>
+
+      /* Small to Wide and larger */
+
+      /* Small only */
+      @media (max-width: 767px) {
+
+      }
+
+      /* Medium to Large */
+      @media (min-width: 768px) and (max-width: 991px) {
+
+      }
+
+      /* Large to Wide */
+      @media (min-width: 992px) and (max-width: 1199px) {
+
+      }
+
+      /* Wide and larger */
+      @media (min-width: 1200px) {
+
+      }
+
+    </style>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/ico/apple-touch-icon-114-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/assets/ico/apple-touch-icon-72-precomposed.png">
+                    <link rel="apple-touch-icon-precomposed" href="/assets/ico/apple-touch-icon-57-precomposed.png">
+                                   <link rel="shortcut icon" href="/assets/ico/favicon.png"> -->
+
+    <script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+
+  </head>
+  <body>
+
+    <div class="container">
+
+      <h1 class="visible-sm">Small Layout <small>payoff</small></h1>
+      <h1 class="visible-md">Medium Layout <small>payoff</small></h1>
+      <h1 class="visible-lg">Large Layout <small>payoff</small></h1>
+      <h1 class="visible-wd">Wide Layout <small>payoff</small></h1>
+
+      <div class="row">
+
+        <div class="col-sm-3"></div>
+
+        <div class="col-sm-6">
+
+          <div class="row">
+
+            <div class="col-lg-4"></div>
+
+            <div class="col-lg-4">
+              <form class="form-inline" method="post" autocomplete="off">
+                <input type="email" placeholder="Email" required="required">
+                <input type="password" placeholder="Password" required="required">
+                <input type="submit" class="btn btn-block btn-primary" value="Sign In">
+              </form>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+    </div>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/holder/holder.js"></script>
+    <script src="js/application.js"></script>
+
+  </body>
+</html>

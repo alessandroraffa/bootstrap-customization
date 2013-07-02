@@ -21,6 +21,11 @@
     padding-right: 0;
   }
 
+  .row .row{
+    margin-left: 0;
+    margin-right: 0;
+  }
+
 }
 
 .visible-wd {
@@ -129,4 +134,4 @@ td.hidden-wd {
   }
 }
 
-.row form.form-inline input{margin-bottom:7px;}
+form.form-inline input{margin-bottom:7px;}
